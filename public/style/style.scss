@@ -1,5 +1,5 @@
-$green: '#7AC751';
-$gray: '#555555';
+$green: #7AC751;
+$gray: #555555;
 
 body{
     font-family: Rubik;
@@ -16,6 +16,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff;
     .topHeader {
         background-color: $green;
         width: 100%;
@@ -24,5 +25,16 @@ header {
         height: 50px;
         align-items: center;
         padding: 0 120px;
+        a{
+            color: #fff;
+            border-left: 2px #fff solid;
+            padding-left: 20px;
+            margin-left: 10px;
+        }
+        select{
+            background-color: transparent;
+            border: none;
+            color: #fff;
+        }
     }
 }

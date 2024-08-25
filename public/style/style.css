@@ -15,13 +15,25 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
 }
 header .topHeader {
-  background-color: "#7AC751";
+  background-color: #7AC751;
   width: 100%;
   display: flex;
   justify-content: space-between;
   height: 50px;
   align-items: center;
   padding: 0 120px;
+}
+header .topHeader a {
+  color: #fff;
+  border-left: 2px #fff solid;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+header .topHeader select {
+  background-color: transparent;
+  border: none;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

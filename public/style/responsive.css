@@ -1,1 +1,5 @@
-/*# sourceMappingURL=responsive.css.map */
+@media screen and (max-width: 900px) {
+  .wrap header .topHeader {
+    padding: 0 30px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
