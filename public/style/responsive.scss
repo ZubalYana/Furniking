@@ -7,3 +7,20 @@
         }
     }
 }
+@media screen and (max-width: 600px) {
+    .wrap {
+        header {
+            p{
+                font-family: 700;
+            }
+            .topHeader {
+                justify-content: center;
+                flex-direction: column;
+                height: 80px;
+                .topHeader__item{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
