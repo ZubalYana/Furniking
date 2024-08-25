@@ -13,3 +13,6 @@ button{
 ol, ul{
     list-style: none;
 }
+select{
+    outline: none;
+}
