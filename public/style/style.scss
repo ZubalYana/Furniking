@@ -37,4 +37,51 @@ header {
             color: #fff;
         }
     }
+    .middleHeader{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 120px;
+        margin-top: 22px;
+        .logo{
+            font-size: 24px;
+            font-weight: 500;
+            color: $gray;
+            display: flex;
+            align-items: center;
+            svg{
+                margin-right: 7px;
+            }
+        }
+        .searchingInputCon{
+            width: 582px;
+            height: 46px;
+            border: 2px $green solid;
+            border-radius: 8px;
+        }
+        .iconsCon{
+            width: 124px;
+            display: flex;
+            justify-content: space-between;
+            .cartCon{
+                position: relative;
+                .itemsAmount{
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $green;
+                    color: #fff;
+                    font-size: 7px;
+                    font-weight: 400;
+                    position: absolute;
+                    top: -3px;
+                    right: -2px;
+                }
+            }
+        }
+    }
 }

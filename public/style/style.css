@@ -36,4 +36,51 @@ header .topHeader select {
   background-color: transparent;
   border: none;
   color: #fff;
+}
+header .middleHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+  margin-top: 22px;
+}
+header .middleHeader .logo {
+  font-size: 24px;
+  font-weight: 500;
+  color: #555555;
+  display: flex;
+  align-items: center;
+}
+header .middleHeader .logo svg {
+  margin-right: 7px;
+}
+header .middleHeader .searchingInputCon {
+  width: 582px;
+  height: 46px;
+  border: 2px #7AC751 solid;
+  border-radius: 8px;
+}
+header .middleHeader .iconsCon {
+  width: 124px;
+  display: flex;
+  justify-content: space-between;
+}
+header .middleHeader .iconsCon .cartCon {
+  position: relative;
+}
+header .middleHeader .iconsCon .cartCon .itemsAmount {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7AC751;
+  color: #fff;
+  font-size: 7px;
+  font-weight: 400;
+  position: absolute;
+  top: -3px;
+  right: -2px;
 }/*# sourceMappingURL=style.css.map */
