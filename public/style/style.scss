@@ -194,13 +194,14 @@ body{
                 color: #E3E3E3;
             }
         }
-        .banner {
+        .banner{
             width: 1055px;
             height: 442px;
             margin: 11px 0 0 11px;
             background: linear-gradient(to bottom right, #F1FAFF, #F1FAFF);
             padding: 47px;
             font-family: Rubik;
+            display: flex;
             .banner_text{
                 position: relative;
                 .secondaryTitle{
@@ -250,6 +251,9 @@ body{
                     background-color: #6aad46;
                 }
                 
+            }
+            .mainChair{
+                width: 374px;
             }
         }
         

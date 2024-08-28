@@ -199,6 +199,7 @@ body {
   background: linear-gradient(to bottom right, #F1FAFF, #F1FAFF);
   padding: 47px;
   font-family: Rubik;
+  display: flex;
 }
 .wrap .bannerScreen .banner .banner_text {
   position: relative;
@@ -250,4 +251,7 @@ body {
 }
 .wrap .bannerScreen .banner .banner_text .shopNowBtn:hover {
   background-color: #6aad46;
+}
+.wrap .bannerScreen .banner .mainChair {
+  width: 374px;
 }/*# sourceMappingURL=style.css.map */
