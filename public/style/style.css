@@ -193,8 +193,9 @@ body {
   color: #E3E3E3;
 }
 .wrap .bannerScreen .banner {
-  width: 100%;
+  width: 1055px;
   height: 442px;
-  margin: 11px;
+  margin: 11px 0 0 11px;
   background: linear-gradient(to bottom right, #F1FAFF, #F1FAFF);
+  padding: 47px;
 }/*# sourceMappingURL=style.css.map */
