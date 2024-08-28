@@ -197,9 +197,10 @@ body {
   height: 442px;
   margin: 11px 0 0 11px;
   background: linear-gradient(to bottom right, #F1FAFF, #F1FAFF);
-  padding: 47px;
+  padding: 50px;
   font-family: Rubik;
   display: flex;
+  position: relative;
 }
 .wrap .bannerScreen .banner .banner_text {
   position: relative;
@@ -254,4 +255,42 @@ body {
 }
 .wrap .bannerScreen .banner .mainChair {
   width: 374px;
+}
+.wrap .bannerScreen .banner .secondaryChairs {
+  width: 98px;
+  height: 323px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  right: 50px;
+}
+.wrap .bannerScreen .banner .secondaryChairs .secondaryChair {
+  width: 97px;
+  height: 91px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+}
+.wrap .bannerScreen .banner .secondaryChairs .secondaryChair #chair1 {
+  width: 49px;
+}
+.wrap .bannerScreen .banner .secondaryChairs .secondaryChair #chair2 {
+  width: 79px;
+}
+.wrap .bannerScreen .banner .secondaryChairs .secondaryChair #chair3 {
+  width: 51px;
+}
+.wrap .bannerScreen .banner .secondaryChairs .secondaryChair .price {
+  color: #7AC751;
+  font-size: 11px;
+  font-weight: 500;
+}
+.wrap .bannerScreen .banner .secondaryChairs .secondaryChair .name {
+  color: #555555;
+  font-size: 7px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

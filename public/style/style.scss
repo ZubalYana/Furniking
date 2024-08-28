@@ -199,9 +199,10 @@ body{
             height: 442px;
             margin: 11px 0 0 11px;
             background: linear-gradient(to bottom right, #F1FAFF, #F1FAFF);
-            padding: 47px;
+            padding: 50px;
             font-family: Rubik;
             display: flex;
+            position: relative;
             .banner_text{
                 position: relative;
                 .secondaryTitle{
@@ -254,6 +255,44 @@ body{
             }
             .mainChair{
                 width: 374px;
+            }
+            .secondaryChairs{
+                width: 98px;
+                height: 323px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                position: absolute;
+                right: 50px;
+                .secondaryChair{
+                    width: 97px;
+                    height: 91px;
+                    background-color: #fff;
+                    border-radius: 8px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 8px;
+                    #chair1{
+                        width: 49px;
+                    }
+                    #chair2{
+                        width: 79px;
+                    }
+                    #chair3{
+                        width: 51px;
+                    }
+                    .price{
+                        color: $green;
+                        font-size: 11px;
+                        font-weight: 500;
+                    }
+                    .name{
+                        color: $gray;
+                        font-size: 7px;
+                        font-weight: 500;
+                    }
+                }
             }
         }
         
