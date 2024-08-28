@@ -346,5 +346,22 @@ body{
             }
         }
     }
+    .pictures{
+        display: flex;
+        justify-content: space-between;
+        .mainPicture{
+            width: 700px;
+        }
+        .pictures_item{
+            width: 500px;
+            height: 535px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .secondaryPicture{
+                width: 100%;
+            }
+        }
+    }
 }
 

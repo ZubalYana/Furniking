@@ -342,4 +342,21 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: rgba(81, 81, 81, 0.71);
+}
+.wrap .pictures {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .pictures .mainPicture {
+  width: 700px;
+}
+.wrap .pictures .pictures_item {
+  width: 500px;
+  height: 535px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrap .pictures .pictures_item .secondaryPicture {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
