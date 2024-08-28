@@ -133,6 +133,8 @@ header {
             margin-top: 25px;
             text-transform: uppercase;
             padding: 0 120px;
+            display: flex;
+            align-items: center;
             .allColections{
                 background-color: $green;
                 width: 260px;
@@ -145,6 +147,18 @@ header {
                 font-weight: 500;
                 svg{
                     margin-right: 10px;
+                }
+            }
+            ul{
+                margin-left: 82px;
+                width: 506px;
+                display: flex;
+                justify-content: space-between;
+                color: $gray;
+                font-size: 14px;
+                font-weight: 400;
+                li{
+                    cursor: pointer;
                 }
             }
         }

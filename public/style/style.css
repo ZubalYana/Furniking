@@ -132,6 +132,8 @@ header .bottomHeader .bottomHeader_bgEl {
   margin-top: 25px;
   text-transform: uppercase;
   padding: 0 120px;
+  display: flex;
+  align-items: center;
 }
 header .bottomHeader .bottomHeader_bgEl .allColections {
   background-color: #7AC751;
@@ -146,4 +148,16 @@ header .bottomHeader .bottomHeader_bgEl .allColections {
 }
 header .bottomHeader .bottomHeader_bgEl .allColections svg {
   margin-right: 10px;
+}
+header .bottomHeader .bottomHeader_bgEl ul {
+  margin-left: 82px;
+  width: 506px;
+  display: flex;
+  justify-content: space-between;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 400;
+}
+header .bottomHeader .bottomHeader_bgEl ul li {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
