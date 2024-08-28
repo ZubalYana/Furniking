@@ -200,6 +200,47 @@ body{
             margin: 11px 0 0 11px;
             background: linear-gradient(to bottom right, #F1FAFF, #F1FAFF);
             padding: 47px;
+            font-family: Rubik;
+            .banner_text{
+                .secondaryTitle{
+                    text-transform: uppercase;
+                    color: #7AC751;
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+                .title{
+                    color: #2F2F2F;
+                    font-size: 40px;
+                    font-weight: 500;
+                    margin-top: 6px;
+                    
+                }
+                .saleText{
+                    font-size: 27px;
+                    font-weight: 600;
+                    font-family: Mulish;
+                    color: rgba(81, 81, 81, 0.71);
+                    margin-top: 26px;
+                }
+                .shopNowBtn{
+                    width: 129px;
+                    height: 40px;
+                    border-radius: 5px;
+                    background-color: $green;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    font-weight: 700;
+                    font-family: Mulish;
+                    user-select: none;
+                    margin-top: 35px;
+                }
+                
+            }
         }
         
     }

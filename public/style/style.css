@@ -198,4 +198,43 @@ body {
   margin: 11px 0 0 11px;
   background: linear-gradient(to bottom right, #F1FAFF, #F1FAFF);
   padding: 47px;
+  font-family: Rubik;
+}
+.wrap .bannerScreen .banner .banner_text .secondaryTitle {
+  text-transform: uppercase;
+  color: #7AC751;
+  font-size: 22px;
+  font-weight: 400;
+}
+.wrap .bannerScreen .banner .banner_text .title {
+  color: #2F2F2F;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+.wrap .bannerScreen .banner .banner_text .saleText {
+  font-size: 27px;
+  font-weight: 600;
+  font-family: Mulish;
+  color: rgba(81, 81, 81, 0.71);
+  margin-top: 26px;
+}
+.wrap .bannerScreen .banner .banner_text .shopNowBtn {
+  width: 129px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #7AC751;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Mulish;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-top: 35px;
 }/*# sourceMappingURL=style.css.map */
