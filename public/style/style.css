@@ -9,15 +9,14 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
-header {
+.wrap header {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #fff;
 }
-header .topHeader {
+.wrap header .topHeader {
   background-color: #7AC751;
   width: 100%;
   display: flex;
@@ -26,18 +25,18 @@ header .topHeader {
   align-items: center;
   padding: 0 120px;
 }
-header .topHeader a {
+.wrap header .topHeader a {
   color: #fff;
   border-left: 2px #fff solid;
   padding-left: 20px;
   margin-left: 10px;
 }
-header .topHeader select {
+.wrap header .topHeader select {
   background-color: transparent;
   border: none;
   color: #fff;
 }
-header .middleHeader {
+.wrap header .middleHeader {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -45,24 +44,24 @@ header .middleHeader {
   padding: 0 120px;
   margin-top: 22px;
 }
-header .middleHeader .logo {
+.wrap header .middleHeader .logo {
   font-size: 24px;
   font-weight: 500;
   color: #555555;
   display: flex;
   align-items: center;
 }
-header .middleHeader .logo svg {
+.wrap header .middleHeader .logo svg {
   margin-right: 7px;
 }
-header .middleHeader .searchingInputCon {
+.wrap header .middleHeader .searchingInputCon {
   width: 582px;
   height: 46px;
   border: 2px #7AC751 solid;
   border-radius: 8px;
   position: relative;
 }
-header .middleHeader .searchingInputCon input {
+.wrap header .middleHeader .searchingInputCon input {
   width: 401px;
   height: 100%;
   border: none;
@@ -75,14 +74,14 @@ header .middleHeader .searchingInputCon input {
   border-right: #E3E3E3 1.5px solid;
   color: #B0B0B0;
 }
-header .middleHeader .searchingInputCon select {
+.wrap header .middleHeader .searchingInputCon select {
   border: none;
   outline: none;
   font-size: 14px;
   font-weight: 400;
   color: #555555;
 }
-header .middleHeader .searchingInputCon .searchBtnCon {
+.wrap header .middleHeader .searchingInputCon .searchBtnCon {
   width: 55px;
   height: 43px;
   background-color: #7AC751;
@@ -95,18 +94,18 @@ header .middleHeader .searchingInputCon .searchBtnCon {
   top: 0px;
   right: 0px;
 }
-header .middleHeader .iconsCon {
+.wrap header .middleHeader .iconsCon {
   width: 124px;
   display: flex;
   justify-content: space-between;
 }
-header .middleHeader .iconsCon svg {
+.wrap header .middleHeader .iconsCon svg {
   cursor: pointer;
 }
-header .middleHeader .iconsCon .cartCon {
+.wrap header .middleHeader .iconsCon .cartCon {
   position: relative;
 }
-header .middleHeader .iconsCon .cartCon .itemsAmount {
+.wrap header .middleHeader .iconsCon .cartCon .itemsAmount {
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -121,11 +120,11 @@ header .middleHeader .iconsCon .cartCon .itemsAmount {
   top: -3px;
   right: -2px;
 }
-header .bottomHeader {
+.wrap header .bottomHeader {
   width: 100%;
   font-family: Rubik;
 }
-header .bottomHeader .bottomHeader_bgEl {
+.wrap header .bottomHeader .bottomHeader_bgEl {
   width: 100%;
   background-color: #F7F8FA;
   height: 67px;
@@ -135,7 +134,7 @@ header .bottomHeader .bottomHeader_bgEl {
   display: flex;
   align-items: center;
 }
-header .bottomHeader .bottomHeader_bgEl .allColections {
+.wrap header .bottomHeader .bottomHeader_bgEl .allColections {
   background-color: #7AC751;
   width: 260px;
   height: 100%;
@@ -146,10 +145,10 @@ header .bottomHeader .bottomHeader_bgEl .allColections {
   font-size: 16px;
   font-weight: 500;
 }
-header .bottomHeader .bottomHeader_bgEl .allColections svg {
+.wrap header .bottomHeader .bottomHeader_bgEl .allColections svg {
   margin-right: 10px;
 }
-header .bottomHeader .bottomHeader_bgEl ul {
+.wrap header .bottomHeader .bottomHeader_bgEl ul {
   margin-left: 82px;
   width: 506px;
   display: flex;
@@ -158,6 +157,30 @@ header .bottomHeader .bottomHeader_bgEl ul {
   font-size: 14px;
   font-weight: 400;
 }
-header .bottomHeader .bottomHeader_bgEl ul li {
+.wrap header .bottomHeader .bottomHeader_bgEl ul li {
   cursor: pointer;
+}
+.wrap .screen {
+  width: 100%;
+  padding: 0 120px;
+}
+.wrap .banner .collectionsSideBar {
+  width: 260px;
+  height: 454px;
+  display: flex;
+  flex-direction: column;
+}
+.wrap .banner .collectionsSideBar .sideBarOption {
+  background-color: #F7F8FA;
+  width: 100%;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  border-bottom: #E3E3E3 0.8px solid;
+  padding: 0 29px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  font-weight: Rubik;
+  color: #555555;
 }/*# sourceMappingURL=style.css.map */
