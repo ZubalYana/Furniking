@@ -164,6 +164,9 @@ body {
   width: 100%;
   padding: 0 120px;
 }
+.wrap .banner {
+  display: flex;
+}
 .wrap .banner .collectionsSideBar {
   width: 260px;
   height: 454px;
@@ -183,4 +186,9 @@ body {
   font-weight: 400;
   font-weight: Rubik;
   color: #555555;
+  transition: 0.2s ease-in-out;
+}
+.wrap .banner .collectionsSideBar .sideBarOption:hover {
+  background-color: #757575;
+  color: #E3E3E3;
 }/*# sourceMappingURL=style.css.map */

@@ -168,6 +168,7 @@ body{
         padding: 0 120px;
     }
     .banner{
+        display: flex;
         .collectionsSideBar{
             width: 260px;
             height: 454px;
@@ -186,6 +187,11 @@ body{
                 font-weight: 400;
                 font-weight: Rubik;
                 color: $gray;
+                transition: 0.2s ease-in-out;
+            }
+            .sideBarOption:hover{
+                background-color: #757575;
+                color: #E3E3E3;
             }
         }
     }
