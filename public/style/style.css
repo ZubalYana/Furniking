@@ -60,11 +60,48 @@ header .middleHeader .searchingInputCon {
   height: 46px;
   border: 2px #7AC751 solid;
   border-radius: 8px;
+  position: relative;
+}
+header .middleHeader .searchingInputCon input {
+  width: 401px;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Rubik;
+  border-radius: 8px 0 0 8px;
+  padding-left: 23px;
+  border-right: #E3E3E3 1.5px solid;
+  color: #B0B0B0;
+}
+header .middleHeader .searchingInputCon select {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+}
+header .middleHeader .searchingInputCon .searchBtnCon {
+  width: 55px;
+  height: 43px;
+  background-color: #7AC751;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0 7px 7px 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 header .middleHeader .iconsCon {
   width: 124px;
   display: flex;
   justify-content: space-between;
+}
+header .middleHeader .iconsCon svg {
+  cursor: pointer;
 }
 header .middleHeader .iconsCon .cartCon {
   position: relative;
