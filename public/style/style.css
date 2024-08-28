@@ -164,16 +164,16 @@ body {
   width: 100%;
   padding: 0 120px;
 }
-.wrap .banner {
+.wrap .bannerScreen {
   display: flex;
 }
-.wrap .banner .collectionsSideBar {
+.wrap .bannerScreen .collectionsSideBar {
   width: 260px;
   height: 454px;
   display: flex;
   flex-direction: column;
 }
-.wrap .banner .collectionsSideBar .sideBarOption {
+.wrap .bannerScreen .collectionsSideBar .sideBarOption {
   background-color: #F7F8FA;
   width: 100%;
   height: 41px;
@@ -188,7 +188,13 @@ body {
   color: #555555;
   transition: 0.2s ease-in-out;
 }
-.wrap .banner .collectionsSideBar .sideBarOption:hover {
+.wrap .bannerScreen .collectionsSideBar .sideBarOption:hover {
   background-color: #757575;
   color: #E3E3E3;
+}
+.wrap .bannerScreen .banner {
+  width: 100%;
+  height: 442px;
+  margin: 11px;
+  background: linear-gradient(to bottom right, #F1FAFF, #F1FAFF);
 }/*# sourceMappingURL=style.css.map */
