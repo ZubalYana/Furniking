@@ -316,4 +316,30 @@ body {
   height: 9px;
   background-color: #7AC751;
   border-radius: 666px;
+}
+.wrap .advantages {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 65px 0;
+}
+.wrap .advantages .advantage {
+  display: flex;
+}
+.wrap .advantages .advantage .text {
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.wrap .advantages .advantage .text .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #555555;
+}
+.wrap .advantages .advantage .text .subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(81, 81, 81, 0.71);
 }/*# sourceMappingURL=style.css.map */
