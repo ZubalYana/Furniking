@@ -120,4 +120,30 @@ header .middleHeader .iconsCon .cartCon .itemsAmount {
   position: absolute;
   top: -3px;
   right: -2px;
+}
+header .bottomHeader {
+  width: 100%;
+  font-family: Rubik;
+}
+header .bottomHeader .bottomHeader_bgEl {
+  width: 100%;
+  background-color: #F7F8FA;
+  height: 67px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  padding: 0 120px;
+}
+header .bottomHeader .bottomHeader_bgEl .allColections {
+  background-color: #7AC751;
+  width: 260px;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+header .bottomHeader .bottomHeader_bgEl .allColections svg {
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */

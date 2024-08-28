@@ -1,5 +1,6 @@
 $green: #7AC751;
 $gray: #555555;
+$lightGray: #F7F8FA;
 
 body{
     font-family: Rubik;
@@ -118,6 +119,32 @@ header {
                     position: absolute;
                     top: -3px;
                     right: -2px;
+                }
+            }
+        }
+    }
+    .bottomHeader{
+        width: 100%;
+        font-family: Rubik;
+        .bottomHeader_bgEl{
+            width: 100%;
+            background-color: $lightGray;
+            height: 67px;
+            margin-top: 25px;
+            text-transform: uppercase;
+            padding: 0 120px;
+            .allColections{
+                background-color: $green;
+                width: 260px;
+                height: 100%;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                font-weight: 500;
+                svg{
+                    margin-right: 10px;
                 }
             }
         }
