@@ -200,6 +200,9 @@ body {
   padding: 47px;
   font-family: Rubik;
 }
+.wrap .bannerScreen .banner .banner_text {
+  position: relative;
+}
 .wrap .bannerScreen .banner .banner_text .secondaryTitle {
   text-transform: uppercase;
   color: #7AC751;
@@ -211,6 +214,12 @@ body {
   font-size: 40px;
   font-weight: 500;
   margin-top: 6px;
+}
+.wrap .bannerScreen .banner .banner_text .emphasizer {
+  width: 191px;
+  position: absolute;
+  top: 120px;
+  left: 134px;
 }
 .wrap .bannerScreen .banner .banner_text .saleText {
   font-size: 27px;
@@ -237,4 +246,8 @@ body {
      -moz-user-select: none;
           user-select: none;
   margin-top: 35px;
+  transition: 0.2s ease-in-out;
+}
+.wrap .bannerScreen .banner .banner_text .shopNowBtn:hover {
+  background-color: #6aad46;
 }/*# sourceMappingURL=style.css.map */

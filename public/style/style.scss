@@ -202,6 +202,7 @@ body{
             padding: 47px;
             font-family: Rubik;
             .banner_text{
+                position: relative;
                 .secondaryTitle{
                     text-transform: uppercase;
                     color: #7AC751;
@@ -213,7 +214,12 @@ body{
                     font-size: 40px;
                     font-weight: 500;
                     margin-top: 6px;
-                    
+                }
+                .emphasizer{
+                    width: 191px;
+                    position: absolute;
+                    top: 120px;
+                    left: 134px;
                 }
                 .saleText{
                     font-size: 27px;
@@ -238,6 +244,10 @@ body{
                     font-family: Mulish;
                     user-select: none;
                     margin-top: 35px;
+                    transition: 0.2s ease-in-out;
+                }
+                .shopNowBtn:hover{
+                    background-color: #6aad46;
                 }
                 
             }
