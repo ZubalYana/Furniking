@@ -255,6 +255,7 @@ body {
 }
 .wrap .bannerScreen .banner .mainChair {
   width: 374px;
+  margin-left: 70px;
 }
 .wrap .bannerScreen .banner .secondaryChairs {
   width: 98px;
@@ -293,4 +294,26 @@ body {
   color: #555555;
   font-size: 7px;
   font-weight: 500;
+}
+.wrap .bannerScreen .banner .circles {
+  width: 105px;
+  height: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 470px;
+}
+.wrap .bannerScreen .banner .circles .circle {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(122, 199, 81, 0.29);
+  border-radius: 50%;
+}
+.wrap .bannerScreen .banner .circles .wideCircle {
+  width: 24px;
+  height: 9px;
+  background-color: #7AC751;
+  border-radius: 666px;
 }/*# sourceMappingURL=style.css.map */

@@ -255,6 +255,7 @@ body{
             }
             .mainChair{
                 width: 374px;
+                margin-left: 70px;
             }
             .secondaryChairs{
                 width: 98px;
@@ -292,6 +293,28 @@ body{
                         font-size: 7px;
                         font-weight: 500;
                     }
+                }
+            }
+            .circles{
+                width: 105px;
+                height: 12px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: absolute;
+                bottom: 20px;
+                left: 470px;
+                .circle{
+                    width: 12px;
+                    height: 12px;
+                    background-color: rgba(122, 199, 81, 0.29);
+                    border-radius: 50%;
+                }
+                .wideCircle{
+                    width: 24px;
+                    height: 9px;
+                    background-color: $green;
+                    border-radius: 666px;
                 }
             }
         }
