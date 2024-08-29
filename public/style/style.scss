@@ -363,16 +363,21 @@ body{
             }
             .title {
                 font-size: 22px; 
-                font-weight: 700;
+                font-weight: 600;
+                color: $gray;
+            }
+            .secondaryTitle{
+                font-size: 22px; 
+                font-weight: 500;
                 color: $gray;
             }
             .price {
                 margin-top: 15px; 
                 font-size: 20px;
-                font-weight: 600;
+                font-weight: 400;
                 color: $green;
                 span{
-                    font-weight: 800;
+                    font-weight: 600;
                 }
             }
             .readMore {
@@ -384,7 +389,6 @@ body{
                 color: #757575;
             }
         }
-    
         .pictures_item {
             width: 500px;
             height: 535px;

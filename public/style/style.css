@@ -362,17 +362,22 @@ body {
 }
 .wrap .pictures .pictureCon .title {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
+  color: #555555;
+}
+.wrap .pictures .pictureCon .secondaryTitle {
+  font-size: 22px;
+  font-weight: 500;
   color: #555555;
 }
 .wrap .pictures .pictureCon .price {
   margin-top: 15px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   color: #7AC751;
 }
 .wrap .pictures .pictureCon .price span {
-  font-weight: 800;
+  font-weight: 600;
 }
 .wrap .pictures .pictureCon .readMore {
   margin-top: 20px;
