@@ -1,3 +1,4 @@
+//connections
 const express = require('express')
 const app = express()
 require('dotenv').config()
@@ -12,6 +13,7 @@ mongoose.connect(`mongodb+srv://zubalana0:${process.env.password}@cluster0.a50jr
 })
 app.use(express.static(path.join(__dirname, 'public')))
 
+//multer
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'uploads/'); 
@@ -23,22 +25,38 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage: storage });
 
+//homepage endpoint
 app.get('/', (req,res)=>{
     res.sendFile(__dirname, 'public', 'index.html')
 })
-app.post('/createGoods', async (req,res)=>{
-    const { img, type, title, status, rating, prices } = req.body;
-    const newGoods = new Goods({
-        img,
-        type,
-        title,
-        status,
-        rating,
-        prices
-    });
-    await newGoods.save();
-    res.status(201).json(newGoods);
-})
+
+//goods creation
+app.post('/createGoods', upload.single('img'), async (req, res) => {
+    try {
+        const { type, title, status, rating, prices } = req.body;
+        const imgPath = req.file ? req.file.path : null;
+
+        if (!imgPath) {
+            return res.status(400).json({ error: 'Image upload failed' });
+        }
+
+        const newGoods = new Goods({
+            img: imgPath,
+            type,
+            title,
+            status,
+            rating,
+            prices: JSON.parse(prices)
+        });
+
+        await newGoods.save();
+        res.status(201).json(newGoods);
+    } catch (error) {
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
+//PORT listening
 app.listen(PORT, (()=>{
     console.log(`Server works on PORT: ${PORT}`)
 }))
