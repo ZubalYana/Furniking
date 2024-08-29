@@ -347,8 +347,40 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.wrap .pictures .mainPicture {
+.wrap .pictures .pictureCon {
+  position: relative;
+}
+.wrap .pictures .pictureCon .mainPicture {
   width: 700px;
+}
+.wrap .pictures .pictureCon .pictureText {
+  position: absolute;
+  z-index: 9999;
+  top: 49px;
+  left: 31px;
+  font-weight: Mulish;
+}
+.wrap .pictures .pictureCon .title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #555555;
+}
+.wrap .pictures .pictureCon .price {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #7AC751;
+}
+.wrap .pictures .pictureCon .price span {
+  font-weight: 800;
+}
+.wrap .pictures .pictureCon .readMore {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
 }
 .wrap .pictures .pictures_item {
   width: 500px;
