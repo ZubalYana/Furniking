@@ -401,6 +401,34 @@ body{
             }
         }
     }
+    .trending{
+        font-family: Mulish;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        min-height: 100vh;
+        .title{
+            text-transform: uppercase;
+            font-size: 36px;
+            font-weight: 700;
+            color: $gray;
+        }
+        ul{
+            width: 572px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+            li{
+                font-size: 24px;
+                font-weight: 600;
+                color: #C2C2C2;
+            }
+            .activeCategory{
+                color: $green;
+            }
+        }
+    }
     
 }
 

@@ -396,4 +396,32 @@ body {
 }
 .wrap .pictures .pictures_item .secondaryPicture {
   width: 100%;
+}
+.wrap .trending {
+  font-family: Mulish;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  min-height: 100vh;
+}
+.wrap .trending .title {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  color: #555555;
+}
+.wrap .trending ul {
+  width: 572px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.wrap .trending ul li {
+  font-size: 24px;
+  font-weight: 600;
+  color: #C2C2C2;
+}
+.wrap .trending ul .activeCategory {
+  color: #7AC751;
 }/*# sourceMappingURL=style.css.map */
