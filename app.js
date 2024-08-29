@@ -13,6 +13,19 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.get('/', (req,res)=>{
     res.sendFile(__dirname, 'public', 'index.html')
 })
+app.post('/createGoods', async (req,res)=>{
+    const { img, type, title, status, rating, prices } = req.body;
+    const newGoods = new Goods({
+        img,
+        type,
+        title,
+        status,
+        rating,
+        prices
+    });
+    await newGoods.save();
+    res.status(201).json(newGoods);
+})
 app.listen(PORT, (()=>{
     console.log(`Server works on PORT: ${PORT}`)
 }))
