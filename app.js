@@ -45,15 +45,17 @@ app.post('/createGoods', upload.single('img'), async (req, res) => {
             type,
             title,
             status,
-            rating,
+            rating: Number(rating), 
             prices: JSON.parse(prices)
         });
 
         await newGoods.save();
         res.status(201).json(newGoods);
-    } catch (error) {
+    }catch (error) {
+        console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
+    
 });
 
 //PORT listening
