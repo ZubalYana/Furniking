@@ -12,7 +12,7 @@ mongoose.connect(`mongodb+srv://zubalana0:${process.env.password}@cluster0.a50jr
     console.log(`Connected to MongoDB`)
 })
 app.use(express.static(path.join(__dirname, 'public')))
-
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 //multer
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
