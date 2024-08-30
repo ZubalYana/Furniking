@@ -30,6 +30,17 @@ app.get('/', (req,res)=>{
     res.sendFile(__dirname, 'public', 'index.html')
 })
 
+//get all the goods
+app.get('/getGoods', async (req,res)=>{
+    try{
+        const goods = await Goods.find();
+        res.status(200).json(goods)
+    }catch(err){
+        console.log(err)
+        res.status(500).json({message: 'Error when getting goods', error: err.message})
+    }
+})
+
 //goods creation
 app.post('/createGoods', upload.single('img'), async (req, res) => {
     try {
@@ -65,8 +76,6 @@ app.post('/createGoods', upload.single('img'), async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
-
-
 
 //PORT listening
 app.listen(PORT, (()=>{
