@@ -432,6 +432,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0;
+  margin-top: 50px;
 }
 .wrap .trending .goodsCon .good {
   width: 270px;
