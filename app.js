@@ -39,24 +39,28 @@ app.post('/createGoods', upload.single('img'), async (req, res) => {
         if (!imgPath) {
             return res.status(400).json({ error: 'Image upload failed' });
         }
-
+        let parsedPrices;
+        try {
+            parsedPrices = JSON.parse(prices);
+        } catch (e) {
+            return res.status(400).json({ error: 'Invalid prices format' });
+        }
         const newGoods = new Goods({
             img: imgPath,
             type,
             title,
             status,
             rating: Number(rating), 
-            prices: JSON.parse(prices)
+            prices: parsedPrices
         });
-
         await newGoods.save();
         res.status(201).json(newGoods);
-    }catch (error) {
+    } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
-    
 });
+
 
 //PORT listening
 app.listen(PORT, (()=>{
