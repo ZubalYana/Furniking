@@ -466,6 +466,26 @@ body {
   font-weight: 600;
   color: #fff;
 }
+.wrap .trending .goodsCon .good .pictureCon .hoverIcons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 39px;
+  height: 182px;
+  justify-content: space-between;
+  right: 7px;
+  bottom: 7px;
+}
+.wrap .trending .goodsCon .good .pictureCon .hoverIcons .icon {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .wrap .trending .goodsCon .good .info .type {
   font-size: 14px;
   font-weight: 400;

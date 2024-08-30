@@ -467,6 +467,26 @@ body{
                         color: #fff;
 
                     }
+                    .hoverIcons{
+                        position: absolute;
+                        display: flex;
+                        flex-direction: column;
+                        width: 39px;
+                        height: 182px;
+                        justify-content: space-between;
+                        right: 7px;
+                        bottom: 7px;
+                        .icon{
+                            width: 39px;
+                            height: 39px;
+                            border-radius: 50%;
+                            background-color: #fff;
+                            cursor: pointer;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
                 }
                 .info{
                     .type{
