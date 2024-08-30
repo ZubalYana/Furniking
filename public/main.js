@@ -27,6 +27,11 @@ axios.get('/getGoods')
             </div>
             `
         );
+        if(item.status == "New"){
+            $('.status').css('background-color', '#00B7F1')
+        }else if(item.status == "Sale"){
+            $('.status').css('background-color', '#7AC751')
+        }
     }
 })
 .catch((error)=>{
