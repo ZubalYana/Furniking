@@ -476,7 +476,8 @@ body {
   justify-content: space-between;
   right: 7px;
   bottom: 7px;
-  transition: 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 9999;
 }
 .wrap .trending .goodsCon .good .pictureCon .hoverIcons .icon {
   width: 39px;
@@ -487,6 +488,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+.wrap .trending .goodsCon .good .pictureCon .hoverIcons .icon svg {
+  transition: fill 0.3s ease;
 }
 .wrap .trending .goodsCon .good .info .type {
   font-size: 14px;

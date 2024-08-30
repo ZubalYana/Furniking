@@ -61,6 +61,7 @@ axios.get('/getGoods')
         //append the element to the container
         $('.goodsCon').append($good);
 
+        //hover animations
         $('.pictureCon').hover(
             function() {
                 $(this).find('.hoverIcons').css('opacity', '1')
@@ -69,8 +70,17 @@ axios.get('/getGoods')
                 $(this).find('.hoverIcons').css('opacity', '0')
             }
         );
-        
     }
+    $('.icon').hover(
+        function() {
+            $(this).css('background-color', '$green');
+            $(this).find('svg').css('fill', '#fff');
+        },
+        function() {
+            $(this).css('background-color', '$fff');
+            $(this).find('svg').css('fill', '#757575');
+        }
+    );
 })
 .catch((error)=>{
     console.error('Error fetching goods:', error);
