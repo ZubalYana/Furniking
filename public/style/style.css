@@ -463,4 +463,39 @@ body {
   font-size: 12px;
   font-weight: 600;
   color: #fff;
+}
+.wrap .trending .goodsCon .good .info .type {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(117, 117, 117, 0.71);
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+.wrap .trending .goodsCon .good .info .name {
+  font-size: 20px;
+  font-weight: 400;
+  color: #555555;
+  font-weight: Rubik;
+  margin-top: 3px;
+}
+.wrap .trending .goodsCon .good .info .info_bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.wrap .trending .goodsCon .good .info .info_bottom .prices {
+  width: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .trending .goodsCon .good .info .info_bottom .prices .newPrice {
+  font-size: 18px;
+  font-weight: 600;
+  color: #7AC751;
+}
+.wrap .trending .goodsCon .good .info .info_bottom .prices .oldPrice {
+  font-size: 18px;
+  font-weight: 500;
+  color: #CCCCCC;
 }/*# sourceMappingURL=style.css.map */

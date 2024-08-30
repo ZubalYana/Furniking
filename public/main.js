@@ -18,8 +18,8 @@ axios.get('/getGoods')
                     <div class="name">${item.title}</div>
                     <div class="info_bottom">
                         <div class="prices">
-                            <div class="newPrice">${newPrice}</div>
-                            <div class="oldPrice">${oldPrice}</div>
+                            <div class="newPrice">$${newPrice}</div>
+                            <div class="oldPrice"><s>$${oldPrice}</s></div>
                         </div>
                         <div class="rating">${item.rating}</div>
                     </div>

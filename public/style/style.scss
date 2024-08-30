@@ -466,6 +466,43 @@ body{
 
                     }
                 }
+                .info{
+                    .type{
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: rgba(117, 117, 117, 0.71);
+                        text-transform: uppercase;
+                        margin-top: 14px;
+                    }
+                    .name{
+                        font-size: 20px;
+                        font-weight: 400;
+                        color: $gray;
+                        font-weight: Rubik;
+                        margin-top: 3px;
+                    }
+                    .info_bottom{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 15px;
+                        .prices{
+                            width: 96px;
+                            display: flex;
+                            justify-content: space-between;
+                            .newPrice{
+                                font-size: 18px;
+                                font-weight: 600;
+                                color: $green;
+                            }
+                            .oldPrice{
+                                font-size: 18px;
+                                font-weight: 500;
+                                color: #CCCCCC;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
