@@ -5,7 +5,7 @@ require('dotenv').config()
 const PORT = process.env.PORT || 3000;
 const path = require('path')
 const mongoose = require('mongoose')
-const Goods = require('./models/Goods')
+const Goods = require('./models/Goods');
 const multer = require('multer')
 mongoose.connect(`mongodb+srv://zubalana0:${process.env.password}@cluster0.a50jr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
 .then(()=>{
@@ -39,18 +39,23 @@ app.post('/createGoods', upload.single('img'), async (req, res) => {
         if (!imgPath) {
             return res.status(400).json({ error: 'Image upload failed' });
         }
+
         let parsedPrices;
         try {
             parsedPrices = JSON.parse(prices);
         } catch (e) {
             return res.status(400).json({ error: 'Invalid prices format' });
         }
+        const parsedRating = parseFloat(rating);
+        if (isNaN(parsedRating)) {
+            return res.status(400).json({ error: 'Invalid rating value' });
+        }
         const newGoods = new Goods({
             img: imgPath,
             type,
             title,
             status,
-            rating: Number(rating), 
+            rating: parsedRating, 
             prices: parsedPrices
         });
         await newGoods.save();
@@ -60,6 +65,7 @@ app.post('/createGoods', upload.single('img'), async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
+
 
 
 //PORT listening
