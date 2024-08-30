@@ -469,12 +469,14 @@ body {
 .wrap .trending .goodsCon .good .pictureCon .hoverIcons {
   position: absolute;
   display: flex;
+  opacity: 0;
   flex-direction: column;
   width: 39px;
   height: 182px;
   justify-content: space-between;
   right: 7px;
   bottom: 7px;
+  transition: 0.3s ease-in-out;
 }
 .wrap .trending .goodsCon .good .pictureCon .hoverIcons .icon {
   width: 39px;

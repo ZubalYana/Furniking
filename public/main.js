@@ -60,6 +60,16 @@ axios.get('/getGoods')
 
         //append the element to the container
         $('.goodsCon').append($good);
+
+        $('.pictureCon').hover(
+            function() {
+                $(this).find('.hoverIcons').css('opacity', '1')
+            },
+            function() {
+                $(this).find('.hoverIcons').css('opacity', '0')
+            }
+        );
+        
     }
 })
 .catch((error)=>{
