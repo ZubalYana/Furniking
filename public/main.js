@@ -3,7 +3,9 @@ axios.get('/getGoods')
 .then((res)=>{
     for(let item of res.data){
         const imgSrc = item.img.replace(/\\/g, '/');
-        
+        const prices = item.prices;
+        const newPrice = prices[prices.length - 1]
+        const oldPrice = prices[prices.length - 2]
         $('.goodsCon').append(
             `
             <div class="good">
@@ -16,8 +18,8 @@ axios.get('/getGoods')
                     <div class="name">${item.title}</div>
                     <div class="info_bottom">
                         <div class="prices">
-                            <div class="newPrice"></div>
-                            <div class="oldPrice"></div>
+                            <div class="newPrice">${newPrice}</div>
+                            <div class="oldPrice">${oldPrice}</div>
                         </div>
                         <div class="rating">${item.rating}</div>
                     </div>
