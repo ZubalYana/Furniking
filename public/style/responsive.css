@@ -174,4 +174,23 @@
   .wrap .pictures .pictureCon .pictureText .readMore {
     margin-top: 10px;
   }
+  .wrap .trending {
+    padding: 0 20px;
+  }
+  .wrap .trending .title {
+    font-size: 24px;
+  }
+  .wrap .trending ul {
+    width: 100%;
+    margin: 15px;
+  }
+  .wrap .trending ul li {
+    font-size: 14px;
+    text-align: center;
+  }
+  .wrap .trending .goodsCon {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
 }/*# sourceMappingURL=responsive.css.map */

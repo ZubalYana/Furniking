@@ -187,6 +187,25 @@
                 }
             }
         }
+        .trending{
+            padding: 0 20px;
+            .title{
+                font-size: 24px;
+            }
+            ul{
+                width: 100%;
+                margin: 15px;
+                li{
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+            .goodsCon{
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
 
     }
 }
