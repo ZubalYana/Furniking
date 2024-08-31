@@ -216,6 +216,7 @@ body {
   font-size: 40px;
   font-weight: 500;
   margin-top: 6px;
+  width: 330px;
 }
 .wrap .bannerScreen .banner .banner_text .emphasizer {
   width: 191px;
@@ -283,7 +284,7 @@ body {
   width: 79px;
 }
 .wrap .bannerScreen .banner .secondaryChairs .secondaryChair #chair3 {
-  width: 51px;
+  width: 50px;
 }
 .wrap .bannerScreen .banner .secondaryChairs .secondaryChair .price {
   color: #7AC751;

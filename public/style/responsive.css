@@ -4,6 +4,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .wrap .screen {
+    display: flex;
+  }
   .wrap header p {
     font-family: 700;
   }
@@ -43,7 +46,81 @@
   .wrap header .bottomHeader .bottomHeader_bgEl ul {
     display: none;
   }
-  .wrap .screen {
+  .wrap .bannerScreen {
+    padding: 0 20px;
+    display: flex;
+  }
+  .wrap .bannerScreen .collectionsSideBar {
     display: none;
+  }
+  .wrap .bannerScreen .banner {
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    flex-direction: column;
+  }
+  .wrap .bannerScreen .banner .banner_text .secondaryTitle {
+    font-size: 10px;
+  }
+  .wrap .bannerScreen .banner .banner_text .title {
+    font-size: 22px;
+    width: 100%;
+  }
+  .wrap .bannerScreen .banner .banner_text .emphasizer {
+    width: 120px;
+    top: 68px;
+    left: 0px;
+  }
+  .wrap .bannerScreen .banner .banner_text .saleText {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  .wrap .bannerScreen .banner .banner_text .shopNowBtn {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .wrap .bannerScreen .banner .mainChair {
+    width: 250px;
+    margin-left: 80px;
+  }
+  .wrap .bannerScreen .banner .circles {
+    left: 130px;
+    top: 418px;
+    width: 70px;
+  }
+  .wrap .bannerScreen .banner .circles .circle {
+    width: 8px;
+    height: 8px;
+  }
+  .wrap .bannerScreen .banner .circles .wideCircle {
+    width: 18px;
+    height: 6px;
+  }
+  .wrap .bannerScreen .banner .secondaryChairs {
+    height: 200px;
+    top: 220px;
+    left: 10px;
+  }
+  .wrap .bannerScreen .banner .secondaryChairs .secondaryChair {
+    width: 60px;
+    height: 60px;
+  }
+  .wrap .bannerScreen .banner .secondaryChairs .secondaryChair #chair1 {
+    width: 30px;
+  }
+  .wrap .bannerScreen .banner .secondaryChairs .secondaryChair #chair2 {
+    width: 30px;
+  }
+  .wrap .bannerScreen .banner .secondaryChairs .secondaryChair #chair3 {
+    width: 30px;
+  }
+  .wrap .bannerScreen .banner .secondaryChairs .secondaryChair .price {
+    font-size: 8px;
+  }
+  .wrap .bannerScreen .banner .secondaryChairs .secondaryChair .name {
+    font-size: 5px;
+    text-align: center;
   }
 }/*# sourceMappingURL=responsive.css.map */

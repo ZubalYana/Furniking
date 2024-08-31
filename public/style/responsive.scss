@@ -9,6 +9,9 @@
 }
 @media screen and (max-width: 600px) {
     .wrap {
+        .screen{
+            display: flex;
+        }
         header {
             p{
                 font-family: 700;
@@ -51,10 +54,86 @@
                     }
                 }
             }
+        }
+        .bannerScreen{
+            padding: 0 20px;
+            display: flex;
+            .collectionsSideBar{
+                display: none;
+            }
+            .banner{
+                margin: 0;
+                margin-top: 10px;
+                width: 100%;
+                padding: 15px;
+                flex-direction: column;
+                .banner_text{
+                    .secondaryTitle{
+                        font-size: 10px;
+                    }
+                    .title{
+                        font-size: 22px;
+                        width: 100%;
+                    }
+                    .emphasizer{
+                        width: 120px;
+                        top: 68px;
+                        left: 0px;
+                    }
+                    .saleText{
+                        width: 100%;
+                        font-size: 16px;
+                        margin-top: 16px;
+                    }
+                    .shopNowBtn{
+                        font-size: 16px;
+                        margin-top: 20px;
+                    }
+                }
+                .mainChair{
+                    width: 250px;
+                    margin-left: 80px;
+                }
+                .circles{
+                    left: 130px;
+                    top: 418px;
+                    width: 70px;
+                    .circle{
+                        width: 8px;
+                        height: 8px;
+                    }
+                    .wideCircle{
+                        width: 18px;
+                        height: 6px;
+                    }
+                }
+                .secondaryChairs{
+                    height: 200px;
+                    top: 220px;
+                    left: 10px;
+                    .secondaryChair{
+                        width: 60px;
+                        height: 60px;
+                        #chair1{
+                            width: 30px;
+                        }
+                        #chair2{
+                            width: 30px;
+                        }
+                        #chair3{
+                            width: 30px;
+                        }
+                        .price{
+                            font-size: 8px;
+                        }
+                        .name{
+                            font-size: 5px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
 
-        }
-        .screen{
-            display: none;
-        }
     }
 }
