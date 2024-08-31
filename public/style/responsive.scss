@@ -21,6 +21,23 @@
                     margin-top: 10px;
                 }
             }
+            .middleHeader{
+                padding: 0 30px;
+                .logo{
+                    font-size: 18px;
+                    svg{
+                        width: 27px;
+                        height: 27px;
+                    }
+                }
+                .searchingInputCon{
+                    display: none;
+                }
+            }
+
+        }
+        .screen{
+            display: none;
         }
     }
 }

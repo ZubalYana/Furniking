@@ -15,4 +15,20 @@
   .wrap header .topHeader .topHeader__item {
     margin-top: 10px;
   }
+  .wrap header .middleHeader {
+    padding: 0 30px;
+  }
+  .wrap header .middleHeader .logo {
+    font-size: 18px;
+  }
+  .wrap header .middleHeader .logo svg {
+    width: 27px;
+    height: 27px;
+  }
+  .wrap header .middleHeader .searchingInputCon {
+    display: none;
+  }
+  .wrap .screen {
+    display: none;
+  }
 }/*# sourceMappingURL=responsive.css.map */
