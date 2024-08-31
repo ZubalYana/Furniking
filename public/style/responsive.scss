@@ -134,6 +134,27 @@
                 }
             }
         }
+        .advantages{
+            padding: 0 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            .advantage{
+                width: 150px;
+                align-items: center;
+                svg{
+                    width: 35px;
+                    height: 35px;
+                }
+                .text{
+                    .title{
+                        font-size: 12px;
+                    }
+                    .subtitle{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
 
     }
 }

@@ -123,4 +123,23 @@
     font-size: 5px;
     text-align: center;
   }
+  .wrap .advantages {
+    padding: 0 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  .wrap .advantages .advantage {
+    width: 150px;
+    align-items: center;
+  }
+  .wrap .advantages .advantage svg {
+    width: 35px;
+    height: 35px;
+  }
+  .wrap .advantages .advantage .text .title {
+    font-size: 12px;
+  }
+  .wrap .advantages .advantage .text .subtitle {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=responsive.css.map */
