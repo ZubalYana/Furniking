@@ -22,7 +22,7 @@
                 }
             }
             .middleHeader{
-                padding: 0 30px;
+                padding: 0 20px;
                 .logo{
                     font-size: 18px;
                     svg{
@@ -32,6 +32,23 @@
                 }
                 .searchingInputCon{
                     display: none;
+                }
+            }
+            .bottomHeader{
+                .bottomHeader_bgEl{
+                    padding: 0 20px;
+                    height: 50px;
+                    .allColections{
+                        font-size: 12px;
+                        width: 180px;
+                        svg{
+                            width: 18px;
+                            height: 16px;
+                        }
+                    }
+                    ul{
+                        display: none;
+                    }
                 }
             }
 

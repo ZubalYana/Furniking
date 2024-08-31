@@ -16,7 +16,7 @@
     margin-top: 10px;
   }
   .wrap header .middleHeader {
-    padding: 0 30px;
+    padding: 0 20px;
   }
   .wrap header .middleHeader .logo {
     font-size: 18px;
@@ -26,6 +26,21 @@
     height: 27px;
   }
   .wrap header .middleHeader .searchingInputCon {
+    display: none;
+  }
+  .wrap header .bottomHeader .bottomHeader_bgEl {
+    padding: 0 20px;
+    height: 50px;
+  }
+  .wrap header .bottomHeader .bottomHeader_bgEl .allColections {
+    font-size: 12px;
+    width: 180px;
+  }
+  .wrap header .bottomHeader .bottomHeader_bgEl .allColections svg {
+    width: 18px;
+    height: 16px;
+  }
+  .wrap header .bottomHeader .bottomHeader_bgEl ul {
     display: none;
   }
   .wrap .screen {
